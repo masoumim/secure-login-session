@@ -41,6 +41,6 @@ Login: https://secure-login-session.herokuapp.com/login
 
 Register: https://secure-login-session.herokuapp.com/register
 
-Profile: Register: https://secure-login-session.herokuapp.com/profile
+Profile: https://secure-login-session.herokuapp.com/profile
 
 
