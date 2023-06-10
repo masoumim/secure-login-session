@@ -2,7 +2,7 @@
 
 A minimal app that demonstrates secure registration, login, persistent login session and hashing of passwords.
 
-https://secure-login-session.herokuapp.com/login
+https://secure-login-session.herokuapp.com/register
 
 
 # Project technical stack and Libraries:
@@ -31,7 +31,7 @@ EJS Template Engine: A simple templating language that lets you generate HTML ma
 
 This project demonstrates secure registration, login and web sessions. Users can register with the app by entering a name and password. In the registration process, the plaintext password is first hashed / salted before being saved to a PostgreSQL database. When a user logs in, their plaintext password is compared to the stored password hash. Bcrypt pulls the salt out of stored hash in the database, hashes the retrieved password and finally performs the comparison. Next, a web session is created and a cookie is sent to the client. The session and cookie data is saved to the database to allow for a persistent login.
 
-To access the app, navigate to https://secure-login-session.herokuapp.com/login
+To access the app, navigate to https://secure-login-session.herokuapp.com/register
 
 # Endpoints:
 
