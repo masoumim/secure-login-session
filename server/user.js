@@ -71,7 +71,7 @@ router.post("/register", async (req, res) => {
             // Add if/else statement with the new user as the condition:
             if (resultUser) {
                 // Send correct response if new user is created:
-                res.status(201).send(`User registered: ${resultUser.rows[0]}`);
+                res.status(201).send(`User registered: ${username}`);
             } else {
                 // Send correct response if new user failed to be created:
                 res.status(500).json({ msg: "Error: not able to register user" });
