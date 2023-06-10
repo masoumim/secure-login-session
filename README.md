@@ -15,9 +15,9 @@ Database: PostgreSQL / Heroku
 
 Passport.js: Authentication middleware for Node.js, used for authenticting users at login
 
-bcrypt: A password-hashing function, used to hash and salt plaintext passwors before they are saved to database
+bcrypt: A password-hashing function, used to hash and salt plaintext passwords before they are saved to database
 
-dotenv: Loads environment variables from .env file, used for storing database connecting string and cookie secret
+dotenv: Loads environment variables from .env file, used for storing database connection string and cookie secret
 
 Express-PG: A collection of node.js modules for interfacing with the PostgreSQL database
 
